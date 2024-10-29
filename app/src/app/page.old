@@ -1,0 +1,18 @@
+import Blog from "@/components/Post";
+
+export default function Home() {
+  return (
+    <div>
+      <Blog
+        title="Mark is the best"
+        author="Mark"
+        content="Mark is the best software engineer"
+      />
+      <Blog
+        title="Mark is the best"
+        author="Mark"
+        content="Mark is the best software engineer"
+      />
+    </div>
+  );
+}
